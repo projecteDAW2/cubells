@@ -1,0 +1,53 @@
+body {
+  background-image: url(../img/fondo.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.conte {
+  padding: 0px;
+  margin: auto;
+  width: 85%;
+  height: 800px;
+  align-items: center;
+  text-align: center;
+  border: 10px solid white;
+  margin-top: 2%;
+  position: relative;
+}
+
+.play {
+  color: rgb(255 255 255);
+  font-size: 131px;
+  font-family: "SansationLight";
+  border: 7px solid rgb(255 255 255);
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15%;
+}
+.play2 {
+  color: rgb(255 255 255);
+  font-size: 50px;
+  font-family: "SansationLight";
+  border: 7px solid rgb(255 255 255);
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  margin-top: 250px;
+}
+@font-face {
+  font-family: "SansationLight";
+  src: url("../SansationLight.eot");
+  src: local("SansationLight"), url("../SansationLight.woff") format("woff"),
+    url("../SansationLight.ttf") format("truetype");
+}
